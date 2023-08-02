@@ -14,8 +14,9 @@ class TransactionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Transaction
-        fields = ['id', 'amount', 'kind', 'description', 'category_id','created_at']
+        fields = ['id', 'amount', 'kind', 'description', 'category_id', 'created_at']
 
     def to_representation(self, instance):
         self.fields['category'] = CategorySerializer()
         return super().to_representation(instance)
+
