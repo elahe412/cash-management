@@ -1,0 +1,35 @@
+[
+  {
+    "model": "transaction.category",
+    "pk": "5d20af62-05a7-42d0-8a8c-2860940b4593",
+    "fields": {
+      "created_at": "2023-08-02T12:28:25.065Z",
+      "updated_at": "2023-08-02T12:28:25.065Z",
+      "is_deleted": false,
+      "deleted_at": null,
+      "name": "shop"
+    }
+  },
+  {
+    "model": "transaction.category",
+    "pk": "8d6986c5-b816-4212-96cd-a33e20985dad",
+    "fields": {
+      "created_at": "2023-08-02T12:27:34.610Z",
+      "updated_at": "2023-08-02T12:27:34.610Z",
+      "is_deleted": false,
+      "deleted_at": null,
+      "name": "intrenet"
+    }
+  },
+  {
+    "model": "transaction.category",
+    "pk": "958ed3a8-be5c-41c7-8e92-fd957c480466",
+    "fields": {
+      "created_at": "2023-08-02T10:46:46.140Z",
+      "updated_at": "2023-08-02T10:46:46.140Z",
+      "is_deleted": false,
+      "deleted_at": null,
+      "name": "groceries"
+    }
+  }
+]
