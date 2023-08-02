@@ -30,7 +30,10 @@ Once `pip` has finished downloading the dependencies:
 ```sh
 (env)$ cd project
 (env)$ python manage.py migrate
+```
+
 In case of need sample data you can run this command, otherwise you could create data by the api or the admin panel
+```sh
 (env)$ python manage.py loaddata fixtures/category.json --app transaction.Category
 (env)$ python manage.py runserver
 ```
